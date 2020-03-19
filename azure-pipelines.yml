@@ -6,7 +6,7 @@
 trigger: none
 
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'vs2017-win2016'
 
 steps:
 - task: PowerShell@2
