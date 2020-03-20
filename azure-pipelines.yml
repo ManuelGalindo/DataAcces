@@ -5,7 +5,8 @@
 
 trigger: none
 
-pool: VMWin10
+pool: 
+  name: PoolLab
 
 steps:
 - task: PowerShell@2
